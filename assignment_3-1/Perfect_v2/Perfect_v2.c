@@ -10,7 +10,7 @@ void isPerfect(int sum, int inputNum) {
   }
 }
 
-int getSum() {
+void getSum() {
   int inputNum;
   int sum = 0;
 
@@ -29,7 +29,7 @@ int getSum() {
 
 int main(void) {
   // getSum will call isPerfect after getting the user input and the sum
-  int sum = getSum();
+  getSum();
 
   return 0;
 }
